@@ -1,0 +1,303 @@
+
+/* table design  */
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* .savetheday-menu design  */
+.savetheday-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+    margin-top: -56px;
+}
+
+.text-savetheday {
+    padding-top: 72px;
+    padding-left: 12px;
+}
+
+/* button savetheday design  */
+.button-savetheday {
+    margin: 0 2rem;
+    width: 6rem;
+    height: 2rem;
+}
+
+.button-savetheday a {
+    background: rgb(110, 189, 249); 
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .5rem .9rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.button-savetheday a:hover {
+    background: rgb(84, 173, 242); 
+    color: #111;
+}
+
+.button-savetheday a i {
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s ease; 
+}
+
+.button-savetheday a:hover i {
+    color: #111;  
+}
+
+/* tables design  */
+table {
+    margin: 1.5rem 1.3rem;
+    width: 70%;
+}
+
+th.t-center{
+    text-align: center;
+}
+table tr td {
+    /* width: 15rem; */
+    height: 2rem;
+}
+
+table tr td .table-td-name-savetheday {
+    width: 25rem;
+}
+
+/* icons design  */
+#td-icon-savetheday-edit,
+#td-icon-savetheday-delete,
+#td-icon-savetheday-print {
+   text-align: center;
+    width: 5rem;
+}
+
+/* in savemoney and savetheday*/
+#td-icon-savetheday-edit a,
+#td-icon-savetheday-delete a,
+#td-icon-savetheday-print a {
+    padding: 10px; 
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: inline-block; 
+    font-size: 20px; 
+    color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+}
+
+#td-icon-savetheday-print a {
+    background: rgb(190, 190, 190); 
+    color: #fff;
+}
+#td-icon-savetheday-print a:hover {
+    background: rgb(160, 160, 160); 
+    color: #111;
+}
+#td-icon-savetheday-edit a {
+    background:rgb(255, 220, 0) ;
+    color: #fff; 
+}
+#td-icon-savetheday-edit a:hover {
+    background: rgb(252, 211, 64);
+    color: #111;
+}
+#td-icon-savetheday-delete a {
+    background: #ff0000; 
+    color: #fff;
+}
+#td-icon-savetheday-delete a:hover {
+    background: rgb(200, 0, 0);
+    color: #111;
+}
+
+/* Page savetheday add  */
+.savetheday-menu h3{
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-size: 25px;
+    margin-top: 2rem;
+}
+.form-savetheday-add{
+    position: absolute;
+    left: 6rem;
+    top: 10rem;
+    margin-top: 1rem;
+   
+}
+.form-savetheday-add input{
+    margin: .5rem 0;
+    font-size: 20px;
+    background: rgb(213, 213, 213);
+    border: none;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding: 4px;
+}
+.form-savetheday-add input::placeholder {
+    color: #111; 
+    opacity: 1; 
+}
+
+.form-savetheday-add label{
+    margin: .5rem 0;
+    font-size: 23px;   
+}
+.form-savetheday-add span{
+    margin: .5rem 0;
+    margin-left: 4px;
+    font-size: 23px;   
+}
+
+/*add button in savemoney*/
+.button-close_add-savetheday{
+    display: flex;
+    position: absolute;
+    left: 6rem;
+    top: 25rem !important;
+    width: 200px;
+}
+.button-close_add-savetheday button{
+    margin-left: 1.5rem;
+    background: rgb(111, 186, 244);
+    border: none;
+    padding: .7rem 1rem;
+    color: #fff ;
+    border-radius: 5px !important;
+    cursor: pointer;
+    transition: background-color 0.3ms ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.button-close_add-savetheday button:hover{
+    background: rgb(111, 195, 244);
+    color: #111!important;
+}
+
+.button-close_add-savetheday a{
+    text-decoration: none;
+    background: rgb(226, 225, 225);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 5px !important;
+    color: #fff;
+    transition: background-color 0.3ms ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.button-close_add-savetheday a:hover {
+    background: rgba(213, 213, 213, 1); 
+    color: #111;
+     
+}
+
+/*button back in page detail savemoney*/
+.button-back-savemoney{
+    display: flex;
+    position: absolute;
+    left: 11rem;
+    top: 26rem !important;
+    width: 200px;
+}
+.button-back-savemoney a{
+    text-decoration: none;
+    background: rgb(226, 225, 225);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 5px !important;
+    color: #fff;
+    transition: background-color 0.3ms ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.button-back-savemoney a:hover {
+    background: rgba(213, 213, 213, 1); 
+    color: #111; 
+}
+
+
+/* Page edit savetheday  */
+.savetheday-menu h3{
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-size: 25px;
+}
+.form-savetheday-add{
+    position: absolute;
+    left: 6rem;
+    top: 10rem;
+}
+.form-savetheday-add input{
+    margin: .5rem 0;
+    font-size: 20px;
+    background: rgb(213, 213, 213);
+    border: none;
+}
+.form-savetheday-add label{
+    margin: .5rem 0;
+    font-size: 23px;   
+}
+
+/*savemoney add save ใช้อันนี้ ปุ่มยกเลิก */
+.button-close_add-savetheday a {
+    text-decoration: none;
+    background: rgb(226, 225, 225); 
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 30px;
+    color: #fff;   
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-close_add-savetheday a:hover {
+    background: rgba(213, 213, 213, 1); 
+    color: #111; 
+}
+
+/* edit  */
+.button-close_edit-savetheday{
+    display: flex;
+    position: absolute;
+    left: 9rem;
+    top: 19rem !important;   
+}
+.button-close_edit-savetheday button{
+    margin-left: 1.5rem;
+    background: rgb(252, 211, 64);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.button-close_edit-savetheday button:hover {
+    background: rgb(232, 191, 52); 
+    color: #111;
+}
+.button-close_edit-savetheday a{
+    text-decoration: none;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.button-close_edit-savetheday a:hover{
+    background: rgb(173, 173, 173);
+    color: #111;
+}
+

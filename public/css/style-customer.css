@@ -1,0 +1,312 @@
+
+/* table design  */
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* .customer-menu design  */
+.customer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+    margin-top: -56px;
+}
+
+.text-customer {
+    padding-top: 72px;
+    padding-left: 12px;
+    padding-bottom: 6px;
+}
+
+/* button customer design  */
+.button-customer {
+    margin: 0.5rem 2rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+.button-customer a {
+    background: rgb(110, 189, 249);
+    border-radius: 5px; 
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .5rem .9rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; 
+}
+
+.button-customer a:hover {
+    background: rgb(84, 173, 242);
+}
+
+.button-customer a i {
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s ease; 
+}
+
+.button-customer a i:hover { 
+    color: #111;
+}
+
+
+
+
+/* tables design  */
+table {
+    margin: 1.5rem 1.3rem;
+    width: 70%;
+}
+th.th-center{
+    text-align: center;
+}
+
+table tr td {
+    /* width: 15rem; */
+    height: 2rem;
+}
+
+table tr td .table-td-name-customer {
+    width: 25rem;
+}
+
+table tr th .table-edit1{
+    margin: 0;
+}
+
+/* icons design  */
+#td-icon-customer-edit,
+#td-icon-customer-delete,
+#td-icon-savetheday-delete{
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+}
+
+#td-icon-customer-edit a{
+    background-color: rgb(252, 211, 64); 
+    border: none; 
+    cursor: pointer; 
+    padding: 8px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    transition: background-color 0.3s ease;
+    color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* สไตล์สำหรับปุ่มลบลูกค้า */
+#td-icon-customer-delete a{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #ff0000; /* สีแดง */
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#td-icon-customer-delete a:hover{
+    background: rgb(200, 0, 0);
+}
+
+/* สไตล์สำหรับไอคอน */
+#td-icon-customer-edit a i,
+#td-icon-customer-delete a i,
+#td-icon-savetheday-delete a i{
+    font-size: 20px;
+    color: #fff;
+}
+#td-icon-customer-edit a i:hover,
+#td-icon-customer-delete a i:hover,
+#td-icon-savetheday-delete a i:hover{
+    font-size: 20px;
+    color: #000;
+}
+
+/*td-center*/
+.td-center{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+/* Page customer add  */
+.customer-menu h3{
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-size: 25px;
+    margin-top: 2rem;
+}
+.form-customer-add{
+    position: absolute;
+    left: 6rem;
+    top: 10rem;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+
+.form-customer-add input::placeholder {
+    color:#111; 
+    opacity: 1; 
+}
+.form-customer-add input{
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 0.5rem;
+
+}
+
+.form-customer-add label{
+    display: inline-block;
+    margin: .5rem 0;
+    font-size: 23px; 
+}
+.form-customer-add span{
+    margin: 8px;
+    font-size: 23px; 
+}
+
+
+/* กำหนดขนาด button */
+.button-close_add-customer {
+    display: inline-flex;
+    width: 300px;
+    position: absolute;
+    left: 6rem !important;
+    top: 16rem !important;  
+}
+
+.button-close_add-customer button {
+    margin-left: 2rem;
+    background: rgb(110, 189, 249); 
+    border: none;
+    padding: 10px !important;
+    border-radius: 5px !important; 
+    cursor: pointer;
+    color: #ffffff; 
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-close_add-customer button:hover{
+    background: rgb(84, 173, 242); 
+    color: #111; 
+}
+
+/* ปุ่มยกเลิก */
+.button-close_add-customer a {
+    text-decoration: none;
+    background: rgb(213, 213, 213) ; 
+    border: none;
+    padding:.7rem 1rem; 
+    border-radius: 5px !important; 
+    color: #fff !important; 
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-close_add-customer a:hover {
+    background: rgb(173, 173, 173) ;
+    color: #111 !important;  
+    
+}
+
+
+/* Page edit customer  */
+.customer-menu h3{
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-size: 25px;
+}
+.form-customer-add{
+    position: absolute;
+    left: 6rem;
+    top: 10rem;
+}
+.form-customer-add input{
+    margin: .5rem 0;
+    font-size: 20px;
+    background: rgb(213, 213, 213);
+    border: none;
+}
+.form-customer-add label{
+    margin: .5rem 0;
+    font-size: 23px;   
+}
+
+ /* add ของอันไหน */
+.button-close_add-customer{
+    display: flex;
+    position: absolute;
+    left: 11rem;
+    top: 18rem;
+}
+.button-close_add-customer button{
+    margin-left: 1.5rem;
+    background: rgb(84, 173, 242);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button-close_add-customer a{
+    text-decoration: none;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 30px;
+    color: #111;
+}
+
+ /* edit  */
+.button-close_edit-customer{
+    display: flex;
+    position: absolute;
+    left: 6rem;
+    top: 16rem;
+    width: 200px;
+}
+.button-close_edit-customer button{
+    margin-left: 1.5rem;
+    background: rgb(252, 211, 64);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;   
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.button-close_edit-customer button:hover {
+    background: rgb(232, 191, 52); 
+   color: #000;
+}
+
+
+.button-close_edit-customer a{
+    text-decoration: none;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.button-close_edit-customer a:hover {
+    background: rgb(173, 173, 173); 
+    color: #111;
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --gray-background-color: rgb(213, 213, 213);
+    --green-background-color: rgb(106, 142, 106);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.327), rgba(255, 255, 255, 0.2)), url(https://cdn.pixabay.com/photo/2019/06/29/04/00/buffalo-4305371_1280.jpg);
+    background-size: cover;
+}
+/* https://cdn.pixabay.com/photo/2018/10/15/07/33/background-3748311_1280.jpg */
+/* section */
+section{
+    height: 90vh;
+    width: 80%;
+    background: rgb(238, 238, 238);
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 4px 4px 6px  2px rgba(34, 34, 34, 0.763);
+}
+
+/* header  */
+header{
+    /* border: 1px solid blue; */
+    background: var(--gray-background-color);
+    height: 90vh;
+    width: 25vw;
+}
+.edit{
+    display: flex;
+    justify-content: center;
+}
+.edit p{
+    font-size: 20px;
+}
+.edit i{
+    font-size: 25px;
+    margin-left: .2rem;
+}
+.user-id{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-user{
+    text-align: center;
+    padding-top: 12px;
+}
+.text-user p{
+    font-size: 20px;
+}
+.text-user h3{
+    margin-bottom: 1rem;
+}
+/* button logout */
+.text-user a{
+    display: inline-block;
+    background: #ff0000; 
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+}
+.text-user a:hover {
+    background: rgb(255, 52, 52); 
+    color: #000;
+}
+
+.img-user{
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-radius: 9999px;
+    margin-top: .6rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+.menu-item1 a, .menu-item2 a,
+.menu-item3 a, .menu-item4 a,
+.menu-item5 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+.menu-item1 a:hover, .menu-item2 a:hover,
+.menu-item3 a:hover, .menu-item4 a:hover,
+.menu-item5 a:hover{
+    color: black;
+}
+.menu i{
+    font-size: 60px;
+    margin: .3rem .6rem;
+    color: rgb(80, 80, 80);
+}
+.menu h2{
+    font-size: 30px;
+    font-weight: 200;
+}
+.menu-item1,.menu-item2,.menu-item3,.menu-item4,.menu-item5{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+.menu-item1:hover,
+.menu-item2:hover,
+.menu-item3:hover,
+.menu-item4:hover,
+.menu-item5:hover {
+    background: rgb(186, 186, 186);
+    border-radius: 40px;
+    color: aliceblue;
+    transition: all .5s ease;
+}
+
+
+
+.menu-item1.active, .menu-item2.active, .menu-item3.active, .menu-item4.active, .menu-item5.active {
+    background: rgb(50, 50, 50);
+    border-radius: 40px;
+    color: aliceblue;
+}
+
+.avatar{
+    width: 100%;
+    height: 100%;
+}

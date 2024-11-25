@@ -1,0 +1,61 @@
+.home-menu {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* height: 80vh; */
+    align-items: center;
+}
+
+.text-home {
+    width: 90%;
+    text-align: left;
+}
+
+.data-home {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.data-box1,
+.data-box2,
+.data-box3 {
+    width: 230px;
+    height: 10rem;
+    /* border: 1px solid saddlebrown; */
+    margin: 0 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.data-box1 h2,
+.data-box2 h2,
+.data-box3 h2 {
+    margin: .7rem .7rem;
+}
+
+.data-box1 {
+    background: rgb(148, 195, 148);
+}
+
+.data-box2 {
+    background: rgb(213, 213, 213);
+}
+
+.data-box3 {
+    background: rgb(152, 152, 152);
+}
+
+
+
+.datalist-month-home {
+    width: 90%;
+    margin-top: 1.5rem;
+}
+.datalist-data{
+    height: 50vh;
+}
+
+
+
+

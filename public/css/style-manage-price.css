@@ -1,0 +1,314 @@
+
+/* table design  */
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* .manage-price-menu design  */
+.manage-price-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+    margin-top: -56px;
+  
+}
+
+.text-manage-price {
+    padding-top: 72px;
+    padding-left: 12px;
+    padding-bottom: 6px;
+}
+
+/* button manage-price design  */
+.button-manage-price {
+    margin: 0 2rem;
+    width: 10rem;
+    height: 2rem;
+   
+}
+
+.button-manage-price a {
+    background: rgb(110, 189, 249);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .5rem .9rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+.button-manage-price a:hover{
+    background: rgb(84, 173, 242);
+    color: #111;
+}
+
+.button-manage-price a i {
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.button-manage-price a i:hover{
+    color: #111;
+}
+
+/* tables design  */
+table {
+    margin: 1.5rem 1.3rem !important;
+    width: 95%;
+}
+
+/*tag th*/
+table .table-tr-th{
+    text-align: right;
+}
+/*th-center*/
+.th-center{
+    text-align: center;
+}
+td.t-right{
+   text-align: right;
+}
+th.t-width{
+    width: 7rem;
+}
+
+table tr td .table-td-name-manage-price {
+    width: 26rem !important;
+}
+
+/* icons design delete  */
+#td-icon-manage-price-edit,
+#td-icon-manage-price-delete {
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+}
+
+#td-icon-manage-price-edit a{
+    background-color: rgb(252, 211, 64); 
+    border: none; 
+    cursor: pointer; 
+    padding: 8px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    color: #fff;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+#td-icon-manage-price-edit a:hover {
+    background: rgb(255, 193, 7);
+    color: #111;
+}
+
+#td-icon-manage-price-delete a {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #ff0000; 
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-decoration: none;
+}
+
+#td-icon-manage-price-delete a:hover {
+    background: rgb(200, 0, 0);
+    color: #111;
+}
+
+#td-icon-manage-price-edit a i {
+    font-size: 20px;
+    color:#fff;
+}
+#td-icon-manage-price-edit a i:hover {
+    font-size: 20px;
+    color:#000;
+}
+#td-icon-manage-price-delete a i{
+    font-size: 20px;
+    color:#fff;
+  }
+#td-icon-manage-price-delete a i:hover{
+    font-size: 20px;
+    color:#000;
+  }
+
+
+/* Page manage-price add  */
+.manage-price-menu h3{
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-size: 25px;
+    margin-top: 2rem;
+}
+.form-manage-price-add{
+    position: absolute;
+    left: 0.5rem;
+    top: 10rem;
+    margin-top: 2rem;
+}
+.form-manage-price-add input{
+    margin: .5rem 0;
+    font-size: 20px;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: 1rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+
+.form-manage-price-add select{
+    margin: .5rem 0;
+    font-size: 20px;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: 0.5rem; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 36%;
+}
+.form-manage-price-add input::placeholder {
+    color: #111; 
+    opacity: 1; 
+}
+
+.form-manage-price-add label{
+    margin: .5rem 0;
+    font-size: 23px;  
+    width: 45%; 
+    text-align: end;
+}
+.form-manage-price-add span{
+    margin: .5rem 0;
+    font-size: 23px;   
+}
+
+/* Page edit manage-price  */
+.manage-price-menu-edti h3{
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-size: 25px;
+}
+.form-manage-price-edit{
+    position: absolute;
+    left: 6rem;
+    top: 11rem;
+    margin-right: 8rem; 
+    margin-top: 1rem;
+}
+.form-manage-price-edit input{
+    margin: .5rem 0;
+    font-size: 20px;
+    background: rgb(213, 213, 213);
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    padding: 4px;
+
+}
+.form-manage-price-edit select{
+    margin: .5rem 0;
+    font-size: 20px;
+    background: rgb(213, 213, 213);
+    border: none;
+    border-radius: 6px;
+    padding: 4px;
+}
+.form-manage-price-edit label{
+    margin: .5rem 0;
+    font-size: 23px; 
+    width: 60%;  
+    text-align: end;
+}
+.form-manage-price-edit span{
+    margin: .5rem 0;
+    font-size: 23px;   
+}
+
+
+/*ปุ่มเพิ่มหน้า บันทึก*/
+.button-close_add-manage-price{
+    display: flex;
+    position: absolute;
+    left: 20rem !important;
+    top: 28rem !important;
+}
+.button-close_add-manage-price button{
+    margin-left: 1.5rem;
+    background: rgb(84, 173, 242);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 5px !important;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.button-close_add-manage-price button:hover{
+    background-color: rgb(113, 189, 255);
+    color: #000;
+}
+.button-close_add-manage-price a{
+    text-decoration: none;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 5px !important;
+    color: #fff  !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.button-close_add-manage-price a:hover{
+    background: rgb(173, 173, 173) ;
+    color: #111  !important;
+}
+  /* edit riceprice button */
+ .button-close_edit-manage-price{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    left: 12rem;
+    top: 26rem;
+}
+.button-close_edit-manage-price button{
+    margin-left: 1.5rem;
+    background: rgb(252, 211, 64);
+    border: none;
+    padding: .7rem 1rem;
+    /* font-size: .7rem 1rem; */
+    border-radius: 5px;
+    cursor: pointer;    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.button-close_edit-manage-price button:hover {
+    background: rgb(232, 191, 52); 
+    color: #000;
+}
+
+.button-close_edit-manage-price a{
+    text-decoration: none;
+    background: rgb(213, 213, 213);
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-close_edit-manage-price a:hover {
+    background: rgb(173, 173, 173);
+    color: #111;
+}
